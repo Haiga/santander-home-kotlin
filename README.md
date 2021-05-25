@@ -2,7 +2,7 @@
 
 Criando a Tela Inicial do Santander com Kotlin
 
-## Santander Dev Week (não-oficial)
+## Santander Dev Week
 
 https://digitalinnovation.one/santander-dev-week-mobile-developer/
 
