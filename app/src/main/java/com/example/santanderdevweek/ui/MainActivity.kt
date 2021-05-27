@@ -38,7 +38,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.tv_conta_corrente).text = conta.numero
         findViewById<TextView>(R.id.tv_saldo).text = conta.saldo
         findViewById<TextView>(R.id.tv_saldo_limite_valor).text = conta.limite
-        findViewById<TextView>(R.id.tv_usuario).text = "Olá, " + conta.cliente.nome
+        findViewById<TextView>(R.id.tv_usuario).text =
+            resources.getString(R.string.ola) + " " + conta.cliente.nome
         findViewById<TextView>(R.id.tv_cartao_final_value).text = conta.cartao.numeroCartao
     }
 
